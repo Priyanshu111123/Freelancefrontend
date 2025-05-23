@@ -6,50 +6,17 @@ import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
 // import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
-import user4 from "../assets/profile-pictures/user4.jpg";
-import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Explore", href: "/login" },
-  { label: "Find Jobs", href: "/login" },
-  { label: "Features", href: "#pricing" },
-  { label: "About Us", href: "#about" },
+  { label: "Explore", href: "#" },
+  { label: "Find Jobs", href: "#" },
+  { label: "Features", href: "#" },
+  { label: "About Us", href: "#" },
 ];
 
 export const testimonials = [
-  {
-    user: "Krishna Rana",
-    company: "Data Science",
-    // image: user1,
-    text: " Currently pursuing a B-TECH degree in Computer Science and Engineering at Lovely Professional University, Krishna is dedicated to staying up-to-date with the latest advancements in their field",
-  },
-  {
-    user: "Gaurav Kumar",
-    company: "Data Science",
-    image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
-  },
-  {
-    user: "Manvi Guleria",
-    company: "Data Science",
-    image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
-  },
-  {
-    user: "Amritest Anand",
-    company: "Web Development",
-    image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
-  },
-  {
-    user: "Shanyan Sood",
-    company: "Data Science",
-    image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
-  },
+ 
   {
     user: "Priyanshu Raj",
     company: "Web Development",
